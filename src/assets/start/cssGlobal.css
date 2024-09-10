@@ -1,0 +1,9 @@
+*{
+    max-width: 1280px;
+    margin-left: auto; /* Centraliza horizontalmente */
+    margin-right: auto; /* Centraliza horizontalmente */
+}
+
+body{
+    margin-top: 10%;
+}

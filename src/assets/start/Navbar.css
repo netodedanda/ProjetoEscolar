@@ -1,0 +1,64 @@
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    position: fixed; /* Fixa o navbar no topo da página */
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Garante que o navbar esteja sempre na frente */
+    height: 7%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.nav-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav-menu li {
+    display: inline-block;
+    position: relative;
+}
+
+.nav-menu li a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #ffffff; /* Cor padrão dos links */
+}
+
+.nav-menu li.dropdown > a {
+    color: rgb(22, 96, 180); /* Cor diferente para o link dentro do item de menu com a classe dropdown */
+}
+
+
+
+.nav-menu li .dropdown-menu {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.nav-menu li .dropdown-menu li {
+    display: block;
+}
+
+.nav-menu li .dropdown-menu li a {
+    padding: 10px;
+    display: block;
+    color: #000000; /* Cor padrão dos links dentro do dropdown */
+}
+
+.nav-menu li .dropdown-menu li a:hover {
+    background-color: #929292; /* Cor de fundo das opções ao passar o mouse */
+    color: #333333; /* Cor do texto das opções ao passar o mouse */
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}

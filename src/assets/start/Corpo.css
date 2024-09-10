@@ -1,0 +1,8 @@
+/* Corpo.css */
+.container-corpo {
+    max-width: 1280px;
+    margin-top: 15%;
+    padding: 20px; /* Adicionei padding para melhorar o espaçamento interno */
+    margin-left: auto; /* Centraliza horizontalmente */
+    margin-right: auto; /* Centraliza horizontalmente */
+}
